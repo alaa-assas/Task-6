@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Prata&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Prata&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 *{
     margin: 0;
@@ -27,6 +28,14 @@
     color: #fff;
     background-color: #c5a992;
     border-color: #c5a992
+}
+
+.custom-font{
+    font-family: "Roboto", serif !important;
+}
+
+.custom-font-size{
+    font-size: 70px !important;
 }
 
 .hover-item-color{
@@ -131,6 +140,9 @@
         height: 0;
         width: 0;
     }
+    .custom-font-size{
+        font-size: 60px !important;
+    }
 }
 
 @media screen and (max-width: 571px) {
@@ -142,5 +154,8 @@
     }
     .carousel-control-next, .carousel-control-prev {
         top: -400px !important;
+    }
+    .custom-font-size{
+        font-size: 45px !important;
     }
 }
