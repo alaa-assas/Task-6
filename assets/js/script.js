@@ -22,7 +22,7 @@ fetch("https://wolnelektury.pl/api/authors/adam-mickiewicz/kinds/liryka/parent_b
                     <div class="position-relative" onmouseover="show(this)" onmouseout="hide(this)">
                         <img src="${popular_books_arr[i].simple_thumb}" class="card-img-top p-5 background-image" alt="${popular_books_arr[i].title}"/>
                         <div class="bg-dark position-absolute bottom-0 end-0 start-0 h-25 opacity-0 text-center w-100">
-                            <a class="text-white" href="#">ADD TO CART</a>
+                            <a class="text-white link-secondary link-underline-opacity-0" href="#">ADD TO CART</a>
                         </div>
                     </div>
                     <div class="card-body">
@@ -47,7 +47,7 @@ fetch("https://wolnelektury.pl/api/authors/adam-mickiewicz/kinds/liryka/parent_b
                 <div class="position-relative" onmouseover="show(this)" onmouseout="hide(this)">
                     <img src="${featured_books_arr[i].simple_thumb}" class="card-img-top p-5 background-image" alt="${featured_books_arr[i].title}"/>
                     <div class="bg-dark position-absolute bottom-0 end-0 start-0 h-25  opacity-0 text-center w-100">
-                        <a class="text-white" href="#">ADD TO CART</a>
+                        <a class="text-white link-secondary link-underline-opacity-0" href="#">ADD TO CART</a>
                     </div>
                 </div>
                 <div class="card-body">
