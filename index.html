@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKSAW</title>
+    <script src="https://kit.fontawesome.com/5cc32e13ba.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css">
+  </head>
+  <body>
+   <header>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light secondary-color py-2 border-bottom fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/images/logo.png" alt="BookSAW" width="150px">
+        </a>
+        <div class="collapse navbar-collapse justify-content-md-end" id="navbarsExample08">
+          
+        </div>
+        <button class="d-lg-none btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          MENU
+        </button>
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <a class="offcanvas-title" id="offcanvasNavbarLabel" href="#">
+              <img src="./assets/images/logo.png" alt="BookSAW" width="150px">
+            </a>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item active">
+                <a class="nav-link hover-item-color" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#featured-books">FEATURED</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#popular-books">POPULAR</a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+
+      </div>
+    </nav>
+    <!-- hero section -->
+    <section class="hero secondary-color vh-100">
+      <div id="carouselExampleCaptions" class="carousel slide h-100">
+        <div class="carousel-inner h-100">
+          <div class="carousel-item active h-100">
+            <div class="row d-flex flex-md-row flex-sm-row flex-lg-row-reverse justify-content-center align-items-center flex-wrap py-5">
+              <div class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center align-items-center p-5">
+                <img src="./assets/images/main-banner1.jpg" class="img-fluid py-1" alt="Life of The Wild book">
+              </div>
+              <div class="col-lg-4 col-md-12 col-sm-12 p-5">
+                <div class="d-flex justify-content-between align-items-lg-start align-items-md-center align-items-sm-center flex-column">
+                  <h2 class="text-black fs-2">Life of The Wild</h2>
+                  <p class="fs-6 text-black">
+                    Lorem ipsum dolor sit amet consec adipisi elit. Doloribus, rem ab fugit numquam sapiente repell dolore deserunt repet! Et officiis volupt aliquid laudant digniss recndae modi offia ipsum sante?                    </p>
+                  <button type="button" class="btn btn-outline-custom rounded-0">Read More <i class="fa-solid fa-arrow-right ps-2"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item h-100">
+            <div class="row d-flex flex-md-row flex-sm-row flex-lg-row-reverse justify-content-center align-items-center flex-wrap py-5">
+              <div class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center align-items-center p-5">
+                <img src="./assets/images/main-banner2.jpg" class="img-fluid py-1" alt="Life of The Wild book">
+              </div>
+              <div class="col-lg-4 col-md-12 col-sm-12 p-5">
+                <div class="d-flex justify-content-between align-items-lg-start align-items-md-center align-items-sm-center flex-column">
+                  <h2 class="text-black fs-2">Life of The Wild</h2>
+                  <p class="fs-6 text-black">
+                    Lorem ipsum dolor sit amet consec adipisi elit. Doloribus, rem ab fugit numquam sapiente repell dolore deserunt repet! Et officiis volupt aliquid laudant digniss recndae modi offia ipsum sante?                    </p>
+                  <button type="button" class="btn btn-outline-custom rounded-0">Read More <i class="fa-solid fa-arrow-right ps-2"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="border border-5 rounded-circle"><i class="fa-solid fa-arrow-left fa-2x sub-title-color-text" aria-hidden="true"></i></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="border border-5 rounded-circle" aria-hidden="true"><i class="fa-solid fa-arrow-right fa-2x sub-title-color-text"></i></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- end hero section -->
+   </header>
+
+   <main>
+    <section class="primary-color">
+      <div class="container py-5 ">
+        <ul class="list-unstyled d-flex justify-content-center flex-wrap">
+          <li><img src="./assets/images/client-image1.png" alt="grad"></li>
+          <li><img src="./assets/images/client-image2.png" alt="flaprise"></li>
+          <li><img src="./assets/images/client-image3.png" alt="bookstore"></li>
+          <li><img src="./assets/images/client-image4.png" alt="bookdoor"></li>
+          <li><img src="./assets/images/client-image5.png" alt="library"></li>
+        </ul>
+      </div>
+    </section>  
+
+    <!-- start featured books section -->    
+    <section id="featured-books" class="secondary-color py-5">
+      <p class="text-center sub-title-color-text">SOME QUALITY ITEMS</p>
+      <h2 class="text-center position-relative">featured Books</h2>
+      <div class="container pt-5">
+        <p class="text-end py-4 border-top">
+          <a href="#" class="link-underline-light link-body-emphasis">View All Products <i class="fa-solid fa-arrow-right"></i></a>
+        </p> 
+      </div>
+    </section>
+    <!-- end featured books section -->    
+
+    <!-- start best selling book section -->
+    <section id="best-selling" class="primary-color py-5">
+      <div class="container">
+      </div>
+    </section>
+    <!-- end best selling book section -->
+
+    <!-- start popular books section -->
+    <section id="popular-books" class="secondary-color py-5">
+        <p class="text-center sub-title-color-text">SOME QUALITY ITEMS</p>
+        <h2 class="text-center position-relative">Popular Books</h2>
+        <ul class="list-unstyled d-flex justify-content-center align-items-center flex-wrap py-5">
+          <li class="px-3 mb-3"><a class="link-secondary link-underline-opacity-0 tab-fake-underline position-relative" href="#popular-books" onclick="tabFake(this)">All Genre</a></li>
+          <li class="px-3 mb-3"><a class="link-secondary link-underline-opacity-0" href="#popular-books" onclick="tabFake(this)">Business</a></li>
+          <li class="px-3 mb-3"><a class="link-secondary link-underline-opacity-0" href="#popular-books" onclick="tabFake(this)">Technology</a></li>
+          <li class="px-3 mb-3"><a class="link-secondary link-underline-opacity-0" href="#popular-books" onclick="tabFake(this)">Romantic</a></li>
+          <li class="px-3 mb-3"><a class="link-secondary link-underline-opacity-0" href="#popular-books" onclick="tabFake(this)">Adventure</a></li>
+          <li class="px-3 mb-3"><a class="link-secondary link-underline-opacity-0" href="#popular-books" onclick="tabFake(this)">Fictional</a></li>
+        </ul>
+        <div class="container">
+        </div>
+    </section>
+    <!-- end popular books section -->
+    <!-- subscribe section -->
+    <section id="subscribe" class="primary-color py-5">
+      <div class="container my-5">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-8 col-md-8 col-sm-8 ">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6">
+                <h2 class="position-relative">
+                  Subscribe To Our Newsletter
+                </h2>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, commodi? Ratione numquam adipisci dicta odio itaque recusandae dolorem ipsam temporibus.
+                </p>
+                <form class="border-secondary border-bottom d-flex">
+                  <input type="text" placeholder="Enter your email addresss her" class="w-75 border border-0 primary-color" aria-label="Username" aria-describedby="basic-addon1">
+                  <button type="button" class="btn">Send <i class="fa-solid fa-paper-plane"></i> </button>
+                </form>            
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end subscribe section  -->
+
+   <!-- footer -->
+    <footer class="secondary-color pt-5">
+      <div class="container border-bottom border-secondary-subtle">
+        <div class="row py-4">
+          <!-- first column about -->
+          <div class="col-sm-12 col-md-12 col-lg-2 mb-3 text-center">
+            <img src="./assets/images/logo.png" alt="BookSAW" width="150px" class="pb-4">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium error corporis dolorem, animi quam non. Voluptas unde obcaecati corporis adipisci iure eveniet voluptatibus ea quod.
+            </p>
+          </div>
+          <!-- secound column links -->
+          <div class="col-sm-12 col-md-6 col-lg-2 offset-lg-2 mb-3 text-center">
+            <h5  class="pb-4">About Us</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2"><a class="link-secondary link-underline-opacity-0" href="#">vision</a></li>
+              <li class="mb-2"><a class="link-secondary link-underline-opacity-0" href="#">articles</a></li>
+              <li class="mb-2"><a class="link-secondary link-underline-opacity-0" href="#">careers</a></li>
+              <li class="mb-2"><a class="link-secondary link-underline-opacity-0" href="#">service terms</a></li>
+              <li class="mb-2"><a class="link-secondary link-underline-opacity-0" href="#">donate</a></li>
+            </ul>
+          </div>
+          <!-- third column services -->
+          <div class="col-sm-12 col-md-6 col-lg-2 mb-3 text-center">
+            <h5  class="pb-4">Discover</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2"><a class="link-secondary link-underline-opacity-0" href="#">Home</a></li>
+              <li class="mb-2"><a class="link-secondary link-underline-opacity-0" href="#">Books</a></li>
+              <li class="mb-2"><a class="link-secondary link-underline-opacity-0" href="#">Authors</a></li>
+              <li class="mb-2"><a class="link-secondary link-underline-opacity-0" href="#">Subjects</a></li>
+              <li class="mb-2"><a class="link-secondary link-underline-opacity-0" href="#">Advanced Search</a></li>
+            </ul>
+          </div>
+          <!-- fourth column Hic -->
+          <div class="col-sm-12 col-md-6 col-lg-2 mb-3 text-center">
+            <h5 class="pb-4">My Account</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2"><a class="link-secondary link-underline-opacity-0" href="#">Sign In</a></li>
+              <li class="mb-2"><a class="link-secondary link-underline-opacity-0" href="#">View Cart</a></li>
+              <li class="mb-2"><a class="link-secondary link-underline-opacity-0" href="#">My Wishlist</a></li>
+              <li class="mb-2"><a class="link-secondary link-underline-opacity-0" href="#">Track My Order</a></li>
+            </ul>
+          </div>
+          <!-- fivth column Nobis -->
+          <div class="col-sm-12 col-md-6 col-lg-2 mb-3 text-center">
+            <h5 class="pb-4">Help</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2"><a class="link-secondary link-underline-opacity-0" href="#">Help center</a></li>
+              <li class="mb-2"><a class="link-secondary link-underline-opacity-0" href="#">Report a problem</a></li>
+              <li class="mb-2"><a class="link-secondary link-underline-opacity-0" href="#">Suggesting edits</a></li>
+              <li class="mb-2"><a class="link-secondary link-underline-opacity-0" href="#">Contact us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container d-flex justify-content-between align-items-end flex-wrap pt-5 pb-2">
+        <p class="pt-1 text-center">
+          &copy; 2022 All Rights Reserved. Free HTML Template by <span> TemplatesJun</span>
+        </p>
+        <div class="ms-auto">
+          <ul class="list-unstyled d-flex justify-content-between flex-wrap">
+            <li class="px-2">
+              <a href="#"  target="_blank">
+                <i class="fab fa-facebook text-black"></i>
+              </a>
+            </li>
+            <li class="px-2">
+              <a href="#"  target="_blank">
+                <i class="fa-brands fa-twitter text-black"></i>
+              </a>
+            </li>
+            <li class="px-2">
+              <a href="#"  target="_blank">
+                <i class="fab fa-linkedin text-black"></i>
+              </a>
+            </li>
+            <li class="px-2">
+              <a href="#"  target="_blank">
+                <i class="fa-brands fa-youtube text-black"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        
+      </div>
+    </footer>
+    <!-- end footer -->
+   </main>
+   <script src="./assets/js/script.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
